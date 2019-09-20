@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>EntityFramework.SafeDbContext</AssemblyName>
+    <RootNamespace>EntityFramework.SafeDbContext</RootNamespace>
+    <Authors>Masoud Bahrami</Authors>
+    <Company>http://Refactor.Ir</Company>
+    <PackageProjectUrl>https://github.com/masoud-bahrami/EntityFramework.SafeDbContext</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/masoud-bahrami/EntityFramework.SafeDbContext</RepositoryUrl>
+    <PackageId>EntityFramework.SafeDbContext</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.2.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.2.1" />
+  </ItemGroup>
+
+</Project>
